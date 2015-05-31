@@ -9,7 +9,7 @@ page = 1
 
 # If no cmd line argument, use default URL
 if ARGV.empty?
-	url_input = "https://github.com/search?q=location%3ABuffalo%2CNY+location%3ASyracuse%2CNY+location%3ARochester%2CNY+location%3AAlbany%2CNY+location%3ABinghamton%2CNY+location%3AIthaca%2CNY&type=Users&s=followers"
+	url_input = "https://github.com/search?utf8=%E2%9C%93&q=location%3Apoland+language%3AC%23&type=Users&ref=searchresults"
 # Use the first URL the user passes in
 else 
 	puts "Note: only accepts one argument"
